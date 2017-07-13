@@ -437,7 +437,8 @@ A Subset for __Architecture and Infrastructure__
     * [Getting Started With CSS calc()](https://www.smashingmagazine.com/2015/12/getting-started-css-calc-techniques/)
   * More Plugins - see _[Tooling > Toolchain](#toolchain) > Compiler / Transpiler / Preprocessor > PostCSS_
 * [CSS in JS](https://speakerdeck.com/vjeux/react-css-in-js)
-  * [A Unified Styling Language](https://medium.com/seek-blog/a-unified-styling-language-d0c208de2660)
+  * Intro
+    * [A Unified Styling Language](https://medium.com/seek-blog/a-unified-styling-language-d0c208de2660)
   * [Styled-Components](https://github.com/styled-components/styled-components)
     * [Styled Components: Enforcing Best Practices In Component-Based Systems](https://www.smashingmagazine.com/2017/01/styled-components-enforcing-best-practices-component-based-systems/)
     * [Writing your styles in JS ≠ writing inline styles](http://mxstbr.blog/2016/11/inline-styles-vs-css-in-js/)
@@ -933,7 +934,7 @@ A Subset for __Architecture and Infrastructure__
 * Network
   * HTTP / XHR
     * Low-level - [Isomorphic Fetch](https://github.com/matthew-andrews/isomorphic-fetch)
-    * High-level -[Axios](https://www.npmjs.com/package/axios) / [Hifetch](https://github.com/dexteryy/hifetch) (author's own project)
+    * High-level -[Axios](https://www.npmjs.com/package/axios)
     * GraphQL - [lokka](https://github.com/kadirahq/lokka)
   * TCP
     * [MQTT](https://www.npmjs.com/package/mqtt)
@@ -962,6 +963,7 @@ A Subset for __Architecture and Infrastructure__
   * [React](https://facebook.github.io/react/)
     * Learning
       * Pete Hunt's [react-howto](https://github.com/petehunt/react-howto)
+      * [React - Basic Theoretical Concepts](https://github.com/reactjs/react-basic)
       * [SurviveJS React](https://survivejs.com/react/introduction/)
       * [React Cheat Sheet](https://reactcheatsheet.com/)
       * Best Practices
@@ -1030,8 +1032,6 @@ A Subset for __Architecture and Infrastructure__
 * i18n
   * [React Intl](https://github.com/yahoo/react-intl) / [React i18next](https://react.i18next.com)
   * [React Intl Redux](https://www.npmjs.com/package/react-intl-redux)
-* Server-side Rendering
-  * see _[Tooling > Workflow](#workflow) > Deployment > Publishing App_
 * Monitoring
   * [React GA](https://www.npmjs.com/package/react-ga)
   * [Redux Raven Middleware](https://www.npmjs.com/package/redux-raven-middleware)
@@ -1039,12 +1039,17 @@ A Subset for __Architecture and Infrastructure__
   * Services - see _[Tooling > Workflow](#workflow) > Monitoring_
 * Debugging
   * [why-did-you-update](https://www.npmjs.com/package/why-did-you-update)
+* Server-side Rendering
+  * see _[Tooling > Workflow](#workflow) > Deployment > Publishing App_
+* Static Web
+  * [Defining Static Web Apps](https://staticapps.org/articles/defining-static-web-apps/)
+  * [JAMstack](https://jamstack.org/)
+  * see _[Tooling > Workflow](#workflow) > Deployment > Publishing App_
 * Scaffold / Boilerplate / Generator
-  * [create-react-app](https://github.com/facebookincubator/create-react-app)
+  * [create-react-app](https://github.com/facebookincubator/create-react-app) / [angular-cli](https://cli.angular.io/) / [vue-cli](https://www.npmjs.com/package/vue-cli)
   * [react-starter-kit](https://github.com/kriasoft/react-starter-kit) / [react-boilerplate](https://github.com/react-boilerplate/react-boilerplate)
-  * [angular-cli](https://cli.angular.io/)
-  * [vue-cli](https://www.npmjs.com/package/vue-cli)
   * [JavaScript Stack from Scratch](https://github.com/verekia/js-stack-from-scratch)
+  * Static Site Generator - [Gatsby](https://www.gatsbyjs.org/) / [Metalsmith](http://www.metalsmith.io/) / [Hexo](https://hexo.io/) / [Assemble](http://assemble.io/)
 * GUI Architectures
   * Comparison
     * [Scaling Isomorphic JavaScript Code](https://blog.nodejitsu.com/scaling-isomorphic-javascript-code/)
@@ -1132,6 +1137,7 @@ A Subset for __Architecture and Infrastructure__
 * Content
   * Carousel - [React Slick](https://www.npmjs.com/package/react-slick) / [Nuka Carousel](https://www.npmjs.com/package/nuka-carousel)
   * [React Paginate](https://www.npmjs.com/package/react-paginate)
+  * [React Rating](https://www.npmjs.com/package/react-rating)
   * List / Table - [React Virtualized](https://www.npmjs.com/package/react-virtualized) / [React Table](https://www.npmjs.com/package/react-table) / [React List](https://www.npmjs.com/package/react-list)
   * Spreadsheet - [React Data Grid](http://adazzle.github.io/react-data-grid/) / [React Handsontable](https://www.npmjs.com/package/react-handsontable) / [React Datasheet](https://nadbm.github.io/react-datasheet/)
   * TreeView - [React TreeView](https://www.npmjs.com/package/react-treeview) / [React Treebeard](https://www.npmjs.com/package/react-treebeard)
@@ -1439,7 +1445,6 @@ A Subset for __Architecture and Infrastructure__
     * Azure's Cloud Fundamentals - [Architecture styles](https://docs.microsoft.com/en-us/azure/architecture/guide/architecture-styles/), [Pillars of software quality](https://docs.microsoft.com/en-us/azure/architecture/guide/pillars), [Design principles](https://docs.microsoft.com/en-us/azure/architecture/guide/design-principles/index)
   * Static
     * [Static Content Hosting](https://docs.microsoft.com/en-us/azure/architecture/patterns/static-content-hosting), [Valet Key](https://docs.microsoft.com/en-us/azure/architecture/patterns/valet-key), [Content Delivery Network](https://docs.microsoft.com/en-us/azure/architecture/best-practices/cdn)
-    * [Defining Static Web Apps](https://staticapps.org/articles/defining-static-web-apps/)
   * Queue / Jobs
     * [Queue-Based Load Leveling](https://docs.microsoft.com/en-us/azure/architecture/patterns/queue-based-load-leveling), [Competing Consumers](https://docs.microsoft.com/en-us/azure/architecture/patterns/competing-consumers), [Priority Queue](https://docs.microsoft.com/en-us/azure/architecture/patterns/priority-queue)
     * [Background jobs](https://docs.microsoft.com/en-us/azure/architecture/best-practices/background-jobs)
@@ -1542,7 +1547,6 @@ A Subset for __Architecture and Infrastructure__
     * [JSON Schema Based Editor](https://github.com/jdorn/json-editor)
   * See _[Tooling > Documentation](#documentation)_
 * Scaffold / Boilerplate / Generator
-  * [nodecube](https://github.com/dexteryy/nodecube) (author's own project)
   * [Nodal](https://github.com/keithwhor/nodal)
   * [Fuge](http://fuge.io/)
   * [Botpress](https://github.com/botpress/botpress)
