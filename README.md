@@ -892,7 +892,7 @@ A Subset for __Architecture and Infrastructure__
   * Debugging
     * [debug](https://www.npmjs.com/package/debug) / [pino](https://www.npmjs.com/package/pino)
 * Hashing / Generating
-  * [uuid](https://www.npmjs.com/package/uuid)
+  * [uuid](https://www.npmjs.com/package/uuid) / [cuid](http://usecuid.org)
   * [shortid](https://www.npmjs.com/package/shortid) / [punycode](https://www.npmjs.com/package/punycode) / [string-hash](https://www.npmjs.com/package/string-hash)
   * [base64-js](https://www.npmjs.com/package/base64-js) / [sha.js](https://www.npmjs.com/package/sha.js) / [spark-md5](https://www.npmjs.com/package/spark-md5) / [crypto-js](https://www.npmjs.com/package/crypto-js) / [jsrsasign](https://www.npmjs.com/package/jsrsasign)
 * Parsing / Manipulating
@@ -979,7 +979,7 @@ A Subset for __Architecture and Infrastructure__
       * Best Practices
         * [React Bits](https://github.com/vasanthk/react-bits), [React in patterns](https://github.com/krasimir/react-in-patterns)
         * [Functional UI and Components as Higher Order Functions](https://blog.risingstack.com/functional-ui-and-components-as-higher-order-functions/)
-      * Next Gen - [React Fiber Architecture](https://github.com/acdlite/react-fiber-architecture)
+      * Next Gen - [What is React Fiber?](https://gist.github.com/duivvv/2ba00d413b8ff7bc1fa5a2e51c61ba43), [React 16](https://github.com/facebook/react/issues/10294)
     * Component Utilities
       * [Recompose](https://github.com/acdlite/recompose)
       * [React Display Name](https://www.npmjs.com/package/react-display-name)
@@ -1596,6 +1596,7 @@ A Subset for __Architecture and Infrastructure__
   * [passwordless](https://passwordless.net/)
   * [oauth](https://www.npmjs.com/package/oauth)
   * OAuth Providers - [hello.js](http://adodson.com/hello.js/) / [grant](https://www.npmjs.com/package/grant)
+  * [svg-captcha](https://github.com/lemonce/svg-captcha)
 * Storage
   * NOSQL
     * Redis Client - [ioredis](https://github.com/luin/ioredis)
@@ -1779,7 +1780,7 @@ A Subset for __Architecture and Infrastructure__
   * Integration Testing
     * [Enzyme](http://airbnb.io/enzyme/)
   * Functional Testing
-    * Headless Browser Automation - [Selenium WebDriverJS](https://github.com/SeleniumHQ/selenium/wiki/WebDriverJs) / [WebDriverIO](http://webdriver.io/) / [Nightwatch.js](http://nightwatchjs.org/) / [Nightmare](https://github.com/segmentio/nightmare) / [CasperJS](http://casperjs.org/)
+    * Headless Browser Automation - [Selenium WebDriverJS](https://github.com/SeleniumHQ/selenium/wiki/WebDriverJs) / [WebDriverIO](http://webdriver.io/) / [Nightwatch.js](http://nightwatchjs.org/) / [Nightmare](https://github.com/segmentio/nightmare) / [CasperJS](http://casperjs.org/) / [Protractor](http://www.protractortest.org/)
     * Cloud - [BrowserStack Automate](https://www.browserstack.com/automate) / [Sauce Labs](https://saucelabs.com/open-source#automated-testing-platform)
   * Visual Testing
     * [React Storybook](https://storybooks.js.org/) / [React Cosmos](https://github.com/react-cosmos/react-cosmos)
@@ -2025,7 +2026,7 @@ A Subset for __Architecture and Infrastructure__
     * React Native - [Expo](https://expo.io/)
     * Node.js - [nodemon](https://www.npmjs.com/package/nodemon)
   * Dev Tools
-    * [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools/)
+    * [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools/) / [Firefox Developer Tools](https://developer.mozilla.org/en-US/docs/Tools) / [Safari Web Inspector](https://developer.apple.com/library/content/documentation/AppleApplications/Conceptual/Safari_Developer_Guide/) / [Microsoft Edge F12 Dev Tools](https://docs.microsoft.com/en-us/microsoft-edge/f12-devtools-guide)
       * Console - [Console API](https://developers.google.com/web/tools/chrome-devtools/console/console-reference), [Command Line API](https://developers.google.com/web/tools/chrome-devtools/console/command-line-reference)
     * Third-party Panels
       * [React DevTools](https://github.com/facebook/react-devtools) / [AngularJS Batarang](https://chrome.google.com/webstore/detail/angularjs-batarang/ighdmehidhipcmcojjgiloacoafjmpfk) / [Augury](https://chrome.google.com/webstore/detail/augury/elgalmkoelokbchhkhacckoklkejnhcd) / [Vue.js DevTools](https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
